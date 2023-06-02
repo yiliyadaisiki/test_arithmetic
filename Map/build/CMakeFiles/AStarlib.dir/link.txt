@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -shared -Wl,-soname,libAStarlib.so -o lib/libAStarlib.so CMakeFiles/AStarlib.dir/src/AStar.cpp.o 
